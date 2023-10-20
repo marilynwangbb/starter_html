@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Travel</title>
 </head>
 <body>
-    <a href = "#main-content">Skip to Main Content</a>
+    <div class = skip><a href = "#main-content">Skip to Main Content</a></div>
     <header>
         <nav>
             <ul>
                 <li><a href = "index.html">Pet</a></li>
-                <li><a href ="travel.html">Travel</a></li>
+                <li><a href ="travel.html" class = current-page>Travel</a></li>
                 <li><a href ="recipes.html">Recipes</a></li>
             </ul>
         </nav>
@@ -21,7 +22,7 @@
         <div>
             <h2>New York City</h2>
     
-            <img src="images/NYC.gif" width="400" alt="NYC gif pictures.">
+            <img src="images/NYC.gif" width="400" class = "gif" alt="NYC gif pictures.">
             <img src="images/NYC_Empire_State.jpeg" width = "400" alt="City view of NYC">
 
             <h3>Geographical Location: North America</h3>
@@ -29,6 +30,7 @@
             <p>From the iconic skyline to the bustling streets, it's a place where dreams are both pursued and realized. The city's fast-paced lifestyle is balanced by its diverse communities, offering a unique blend of cultures, cuisines, and experiences around every corner. Amid the hustle and bustle, there's a sense of constant motion and an electrifying energy that makes life in the Big Apple truly extraordinary.(ChatGPT,2023)</p>
 
             <h3>Photo Gallery</h3>
+            <div class = "grid-container">
             <figure>
                 <img src="images/Time Square.jpg" width = "200" alt="Time square">
                 <figcaption>Time square is crowded with people from all over the world, and its aliveness flows in the lights and shadows of the city.</figcaption>
@@ -56,12 +58,13 @@
                 
                 <figcaption>Winter in Washington Square Park brings another view of NYC</figcaption>
             </figure>
+            </div>
             <!-- Marilyn Wang -->
         </div>
         <div>
             <h2>Chiangmai, Thailand</h2>
     
-            <img src="images/chiangmaigif.gif" width="400" alt="Chiangmai gif pic.">
+            <img src="images/chiangmaigif.gif" width="400" class = "gif" alt="Chiangmai gif pic.">
             <img src="images/chiangmai4.jpeg" width = "400" alt="Passing monk in Chiangmai">
 
             <h3>Geographical Location: Asia</h3>
@@ -69,6 +72,7 @@
             <p>The heart of Chiang Mai beats with a rich history that dates back over 700 years. Founded in 1296, the city was originally the capital of the ancient Lanna Kingdom. Today, remnants of its storied past are scattered throughout the city, from the ancient temples that dot the landscape to the preserved city walls and moats that harken back to a bygone era. Among the city's treasures is the revered Wat Phra Singh, a 14th-century temple known for its intricate architecture and revered Buddha image. Chiang Mai's historical sites provide a captivating glimpse into its heritage, making it a destination that seamlessly weaves together the past and present for visitors to explore and appreciate.</p>
 
             <h3>Photo Gallery</h3>
+            <div class = "grid-container">
             <figure>
                 <img src="images/chiangmai.jpeg" width = "200" alt="Primary image of Chiangmai">
                 <figcaption>Doi Inthanon National Park, natural beauty and vibrant history and culture.</figcaption>
@@ -96,13 +100,14 @@
                 
                 <figcaption>Chiangmai Gold Buddha.</figcaption>
             </figure>
+            </div>
             <!-- Source from Cindy Ye -->
         </div>
 
         <div>
             <h2>Tokyo,Japan</h2>
     
-            <img src="images/Tokyo.gif" width="400" alt="Tokyo gif pictures.">
+            <img src="images/Tokyo.gif" width="400" class = "gif" alt="Tokyo gif pictures.">
             <img src="images/Primary_Tokyo.jpg" width = "400" alt="Primary pic for Tokyo">
 
             <h3>Geographical Location: Asia</h3>
@@ -110,6 +115,7 @@
             <p>Tokyo's food scene is a gastronomic adventure. From delectable sushi at Tsukiji Fish Market to savory ramen in cozy alleys, every bite is an exquisite journey through Japanese culinary excellence.(ChatGPT,2023)</p>
 
             <h3>Photo Gallery</h3>
+            <div class = "grid-container">
             <figure>
                 <img src="images/Tokyo_street.jpg" width = "200" alt="Tokyo street">
                 <figcaption>Tokyo street night views.</figcaption>
@@ -137,12 +143,13 @@
                 
                 <figcaption>Iseto izakaya restaurant in Tokyo is founded  in 1938.</figcaption>
             </figure>
+            </div>
             <!-- Marilyn Wang -->
         </div>
         <div>
             <h2>Hawaii,United States</h2>
     
-            <img src="images/hawaii_sunset.gif" width="400" alt="Hawaii gif.">
+            <img src="images/hawaii_sunset.gif" width="400" class = "gif" alt="Hawaii gif.">
             <img src="images/Hawaii_primary.jpg" width = "400" alt="Primary pic for Hawaii">
 
             <h3>Geographical Location: Oceania</h3>
@@ -150,6 +157,7 @@
             <p>Hawaiian culture is a rich tapestry of traditions, music, and dance. Hula, with its graceful movements, tells stories of the islands' history. Food plays a central role, with luau feasts showcasing kalua pig and poi, while the fusion of Asian and Pacific flavors creates a unique and tantalizing culinary experience.(ChatGPT,2023)</p>
 
             <h3>Photo Gallery</h3>
+            <div class = "grid-container">
             <figure>
                 <img src="images/Maui.jpg" width = "200" alt="Maui">
                 <figcaption>Maui sea coast</figcaption>
@@ -165,13 +173,14 @@
                 <img src="images/Hawaiian_plate.jpg" width = "200" alt="Food">
                 <figcaption>A Hawaiian plate with poi, laulau, mac salad, rice, kalua pig, and three kinds of poke.</figcaption>
             </figure>
+            </div>
             <!-- Marilyn Wang -->
 
         </div>
         <div>
             <h2>Morocco</h2>
     
-            <img src="images/desert.gif" width="400" alt="Sahara gif.">
+            <img src="images/desert.gif" width="400" class = "gif" alt="Sahara gif.">
             <img src="images/The_blue_city.jpg" width = "400" alt="Primary pic for blue city Morocco">
 
             <h3>Geographical Location: North Africa</h3>
@@ -179,6 +188,7 @@
             <p>The Sahara, Earth's largest hot desert, stretches across North Africa. Its vast, arid expanse of shifting sands and dunes is a harsh but mesmerizing landscape, showcasing nature's raw, untamed beauty.(ChatGPT,2023)</p>
 
             <h3>Photo Gallery</h3>
+            <div class = "grid-container">
             <figure>
                 <img src="images/Morocco_market.jpg" width = "200" alt="Morocco market">
                 <figcaption>Morocco market and street view</figcaption>
@@ -194,13 +204,14 @@
                 <img src="images/Sahara.jpg" width = "200" alt="Food">
                 <figcaption>Sahara Desert in Morocco.</figcaption>
             </figure>
+            </div>
             <!-- Marilyn Wang -->
 
         </div>
         <div>
             <h2>Bahamas</h2>
     
-            <img src="images/pig_island.gif" width="400" alt="Pig_island">
+            <img src="images/pig_island.gif" width="400" class = "gif" alt="Pig_island">
             <img src="images/Bahamas-beach-swing.jpg" width = "400" alt="Beach swing">
 
             <h3>Geographical Location: Oceania</h3>
@@ -208,6 +219,7 @@
             <p>Pig Island, located in the Bahamas, is famous for its unique inhabitants: swimming pigs. These friendly and adorable pigs attract tourists who visit to interact with them in the crystal-clear waters.(ChatGPT,2023)</p>
 
             <h3>Photo Gallery</h3>
+            <div class = "grid-container">
             <figure>
                 <img src="images/Bahamas-hotel.jpg" width = "200" alt="Bahamas hotel">
                 <figcaption>Atlantis,Paradise Island, Bahamas</figcaption>
@@ -223,6 +235,7 @@
                 <img src="images/Sea_turtle.jpg" width = "200" alt="Food">
                 <figcaption>Sea turtles</figcaption>
             </figure>
+            </div>
             <!-- Marilyn Wang -->
 
         </div>
