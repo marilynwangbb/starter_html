@@ -42,6 +42,9 @@ p{
 
 img{
     max-width: 300px;
+    overflow:hidden;
+    margin: 0 auto; 
+    display: block;
 }
 
 figcaption{
